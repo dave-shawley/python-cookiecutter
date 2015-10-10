@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+#
+
 import setuptools
 
 from {{cookiecutter.package_name}} import __version__
