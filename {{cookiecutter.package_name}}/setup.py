@@ -46,4 +46,5 @@ setuptools.setup(
         'Programming Language :: Python :: Implementation :: PyPy',
         'Development Status :: 1 - Planning',
     ],
+    zip_safe=True,
 )
