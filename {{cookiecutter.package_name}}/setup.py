@@ -21,7 +21,7 @@ def read_requirements(name):
     except IOError:
         pass
 
-    return requirements[]
+    return requirements
 
 
 setuptools.setup(
