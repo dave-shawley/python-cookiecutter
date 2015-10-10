@@ -33,7 +33,7 @@ setuptools.setup(
     author_email='{{cookiecutter.author_email}}',
     url='https://github.com/{{cookiecutter.github_org}}/{{cookiecutter.package_name}}',
     install_requires=read_requirements('requirements.txt'),
-    test_require=read_requirements('test-requirements.txt'),
+    tests_require=read_requirements('test-requirements.txt'),
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
