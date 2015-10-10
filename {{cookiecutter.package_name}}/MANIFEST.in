@@ -1,3 +1,5 @@
+include .dockerignore
+include Dockerfile
 include LICENSE
 include *requirements.txt
 graft docs
