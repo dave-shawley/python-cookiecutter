@@ -35,7 +35,7 @@ html_sidebars = {
 html_theme_options = {
     'description': '{{cookiecutter.description}}',
     'github_user': '{{cookiecutter.github_org}}',
-    'github_repo': '{{cookiecutter.package}}',
+    'github_repo': '{{cookiecutter.package_name}}',
 }
 
 intersphinx_mapping = {

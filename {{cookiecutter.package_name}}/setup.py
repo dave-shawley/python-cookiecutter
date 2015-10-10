@@ -1,6 +1,6 @@
 import setuptools
 
-from {{cookiecutter.package}} import __version__
+from {{cookiecutter.package_name}} import __version__
 
 
 def read_requirements(name):
@@ -22,13 +22,13 @@ def read_requirements(name):
 
 
 setuptools.setup(
-    name='{{cookiecutter.package}}',
+    name='{{cookiecutter.package_name}}',
     description='{{cookiecutter.description}}',
     long_description='\n' + open('README.rst').read(),
     packages=setuptools.find_packages(),
     author='{{cookiecutter.author}}',
     author_email='{{cookiecutter.author_email}}',
-    url='https://github.com/{{cookiecutter.github_org}}/{{cookiecutter.package}}',
+    url='https://github.com/{{cookiecutter.github_org}}/{{cookiecutter.package_name}}',
     install_requires=read_requirements('requirements.txt'),
     test_require=read_requirements('test-requirements.txt'),
     classifiers=[
